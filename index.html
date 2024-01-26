@@ -1,0 +1,28 @@
+<h1 class="text-center">Danh sách sinh viên</h1>
+<h1 class="text-center">{{title}}</h1>
+<a href="#!/them-sinh-vien"><button class="btn btn-success">Thêm sinh viên</button></a>
+<a href="#!/sua-sinh-vien"><button class="btn btn-primary">Quay lại</button></a>
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">STT</th>
+      <th scope="col">Họ Tên</th>
+      <th scope="col">Tuổi</th>
+      <th scope="col">Lớp </th>
+      <th scope="col">Thao tác</th>
+    </tr>
+  </thead>
+  <tbody ng-repeat="student in listStudent">
+    <tr>
+      <th scope="row">{{$index+1}}</th>
+      <td>{{student.ten}}</td>
+      <td>{{student.tuoi}}</td>
+      <td>{{student.lop}}</td>
+      <td>
+        <a href="./update.html"><button class="btn btn-warning">Sửa</button>
+        <button class="btn btn-danger" ng-click="deleteStudent(student.id)">Xóa</button></a>
+      </td>
+    </tr>
+  </tbody>
+  
+</table>

@@ -1,0 +1,66 @@
+{
+  "user": [
+    {
+      "username": "anhhdph11",
+      "password": "13082004",
+      "hoTen": "Hoàng ĐỨc Anh",
+      "id": "2a98"
+    },
+    {
+      "username": "gnutvn2",
+      "password": "289204",
+      "hoTen": "Nguyễn Văn Tùng2",
+      "id": "dbaa"
+    },
+    {
+      "username": "gnutvn3",
+      "password": "289204",
+      "hoTen": "Nguyễn Văn Tùng3",
+      "id": "e462"
+    }
+  ],
+  "student": [
+    {
+      "ten": "Nguyễn Anh",
+      "tuoi": "18",
+      "lop": "SD18308",
+      "id": "bf6c"
+    },
+    {
+      "ten": " Nguyễn Minh",
+      "tuoi": "18",
+      "lop": "SD18308",
+      "id": "e399"
+    },
+    {
+      "ten": "Nguyễn Linh",
+      "tuoi": "18",
+      "lop": "SD18308",
+      "id": "eb3c"
+    },
+    {
+      "ten": "Nguyễn Long",
+      "tuoi": "18",
+      "lop": "SD18308",
+      "id": "ce57"
+    },
+    {
+      "ten": "Nguyễn Quân",
+      "tuoi": "18",
+      "lop": "SD18308",
+      "id": "a673"
+    },
+    {
+      "ten": "duc",
+      "tuoi": 14,
+      "lop": "SD11111",
+      "id": "eddd"
+    },
+    {
+      "id": "db01",
+      "ten": "duc132",
+      "tuoi": 123,
+      "lop": "SD18308"
+    }
+  ]
+}

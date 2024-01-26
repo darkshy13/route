@@ -1,0 +1,22 @@
+<h1 class="text-center">Form thêm sinh viên</h1>
+       
+<form action="" ng-submit="addStudent()">
+        <div class="mb-3">
+            <label for="ten" class="form-label">Tên</label>
+            <input ng-model="student.ten" type="text" class="form-control" id="ten" placeholder="Nhập tên">
+          </div>
+          <div class="mb-3">
+            <label for="tuoi" class="form-label">Nhập tuổi</label>
+            <input  ng-model="student.tuoi" type="number" class="form-control" id="tuoi" placeholder="Nhập tuổi">
+          </div>
+          <select ng-model="student.lop" class="form-select" aria-label="Default select example">
+            <option selected>Chọn Lớp</option>
+            <option value="SD18308">SD18308</option>
+            <option value="SD11111">SD11111</option>
+            <option value="3">Khác</option>
+          </select>
+          <br>
+          <a href="#!/trang-chu"><button
+            type="button" class="btn btn-outline-primary">Quay lại</button></a>
+          <button type="submit" class="btn btn-success">Thêm sinh viên</button>
+        </form>
